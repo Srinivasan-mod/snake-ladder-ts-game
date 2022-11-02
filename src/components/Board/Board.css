@@ -1,0 +1,49 @@
+body {
+  position: fixed;
+  display: grid;
+  margin-left: 3px;
+  background-image: url("../img/680797.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 2rem;
+  top: 1rem;
+}
+
+.Board {
+  background-image: url("../img/joel-abraham-8RRYJg26Wr4-unsplash.jpg");
+  
+  background-size: cover;
+  display: grid;
+  float: left;
+  justify-content: left;
+  grid-template-columns: repeat(10, 4rem);
+  grid-template-rows: repeat(10, 4rem);
+  gap: 3px;
+  box-shadow: 10px 0px 200px #dd31904b;
+}
+
+.cell {
+  display: flex;
+  font-size: 0.8rem;
+  color: rgb(219, 188, 14);
+  border-style: solid;
+  border-color: #cc1259d5;
+}
+
+.CellNumber {
+  color: rgb(248, 208, 107);
+  padding-left: 0.4rem;
+}
+
+.SnakeOrLadder {
+  color: rgba(36, 228, 132, 0.76);
+  font-size: 0.7rem;
+  padding-left: 1.5rem;
+}
+
+.position{
+  padding-top: 1rem;
+}
+
+
+

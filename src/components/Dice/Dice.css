@@ -1,0 +1,67 @@
+.Dice-btn {
+  float: right;
+  height: 4rem;
+  width: 4rem;
+  margin-top: 2rem;
+  margin-right: -13rem;
+  border: 5px;
+  border-style: inset;
+  font-size: 0.8rem;
+  background-color: rgba(163, 163, 165, 0.877);
+}
+
+
+.output {
+  float: right;
+  margin-top: 7rem;
+  margin-right: -12rem;
+  font-size: 3rem;
+  color: #f7f7f8;
+}
+
+.playerTurn{
+  float: right;
+  margin-top: 11.3rem;
+  margin-right: -14.7rem;
+  font-size: 1.3rem;
+  color: #f7f7f8;
+}
+.PlayerDetails {
+  box-sizing: content-box;
+  height: auto;
+  width: auto;
+  width: 12rem;
+  background-color: rgba(0, 0, 0, 0.521);
+  border: solid;
+  color: rgb(250, 243, 243);
+  float: right;
+  font-size: 0.9rem;
+  margin-right: -18rem;
+  margin-top: 14rem;
+}
+
+.eachPlayer{
+  margin-bottom: 1rem;
+}
+
+#pp{
+  margin-top: -1rem;
+}
+
+#pi{
+  margin-top: -1rem;
+}
+
+#win{
+  position: relative;
+  height: auto;
+  width: 10rem;
+  text-align: center;
+  box-sizing: content-box;
+  border: solid;
+  float: right;
+  margin-top: -20rem;
+  margin-right: -13rem;
+  color: #f7f7f8;
+}
+
